@@ -56,9 +56,9 @@ router.post('/login', async (req, res) => {
             return res.status(404).json({message: 'password doesn`t match'});
         }
 
-        const token = jwt.sign({id: user.id}, JWT_SECRET, {expiresIn: '1m'});
+        const token = jwt.sign({id: user.id}, JWT_SECRET, {expiresIn: '10m'});
 
-        res.status(200).json(token);
+        req.userId = decoded.id;
 
     } catch (error) {
         res.status(500).json({message: 'server error'});
