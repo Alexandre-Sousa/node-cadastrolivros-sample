@@ -1,2 +1,2 @@
 # node-cadastrolivros-sample
-Amostra de API simples, usando Node.js, Express, Prisma, MongoDB, com senha criptografada usando bcrypt (JWT) e rotas públicas e privadas usando Token de autenticação. Desenvolvimento usando modelo Gitflow, emulando issuekey para integração com development panel do Jira.
+Simple API sample, using **Node.js**, **Express**, **Prisma**, **MongoDB**, with **password encryption using bcrypt (JWT)**, and **public/private routes with authentication token**. Development follows the **Gitflow model**, emulating issue keys for integration with **Jira’s development panel**.
